@@ -1,0 +1,16 @@
+.page {
+    display: flex;
+}
+
+.App {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
