@@ -10,13 +10,13 @@ class Educational extends Component{
             <div>
                 <form>
                     <label htmlFor="schoolInput">School name: </label>
-                    <input type="text" id="schoolInput"/>
-                    <label htmlFor="titleInput">Title of study: </label>
-                    <input type="text" id="titleInput"/>
-                    <label htmlFor="start">Start date:</label>
-                    <input type="date" id="start" name="start"/>
-                    <label htmlFor="end">End date:</label>
-                    <input type="date" id="end" name="end"/>
+                    <input type="text" id="schoolInput" onChange={this.props.handler}/>
+                    <label htmlFor="titleStudyInput">Title of study: </label>
+                    <input type="text" id="titleStudyInput" onChange={this.props.handler}/>
+                    <label htmlFor="schoolStart">Start date:</label>
+                    <input type="date" id="schoolStart" name="schoolStart" onChange={this.props.handler}/>
+                    <label htmlFor="schoolEnd">End date:</label>
+                    <input type="date" id="schoolEnd" name="schoolEnd" onChange={this.props.handler}/>
                 </form>
             </div>
         );
